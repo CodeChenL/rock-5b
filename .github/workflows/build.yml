@@ -19,14 +19,14 @@ jobs:
     strategy:
       matrix:
         boards:
-        - "radxa-zero-2pro"
+        - "rock-5b"
         build_systems:
         - "rbuild"
         flavors:
         - "kde"
         - "cli"
         suites:
-        - "bookworm"
+        - "bullseye"
         - "jammy"
   prepare_release:
     outputs:
@@ -38,7 +38,7 @@ jobs:
     - name: "Generate rbuild changelog"
       uses: "radxa-repo/rbuild-changelog@main"
       with:
-        product: "radxa-zero-2pro"
+        product: "rock-5b"
     - id: "release"
       name: "Create empty release"
       uses: "softprops/action-gh-release@v1"
@@ -51,5 +51,5 @@ jobs:
         target_commitish: "main"
         token: "${{ secrets.GITHUB_TOKEN }}"
 name: "Build image for Release channel"
-on:
-  workflow_dispatch:
+"on":
+  workflow_dispatch: {}
