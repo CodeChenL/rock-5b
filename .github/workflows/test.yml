@@ -26,10 +26,8 @@ jobs:
         - "rbuild"
         flavors:
         - "kde"
-        - "cli"
         suites:
         - "bullseye"
-        - "jammy"
   prepare_release:
     outputs:
       release_id: "${{ steps.release.outputs.id }}"
