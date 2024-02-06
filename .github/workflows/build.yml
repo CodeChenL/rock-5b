@@ -51,5 +51,5 @@ jobs:
         target_commitish: "main"
         token: "${{ secrets.GITHUB_TOKEN }}"
 name: "Build image for Release channel"
-"on":
+on:
   workflow_dispatch: ""
