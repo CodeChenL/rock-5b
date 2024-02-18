@@ -1,9 +1,9 @@
-# Rock 5B
+# ROCK 5B
 [![Build image for Release channel](https://github.com/radxa-build/rock-5b/actions/workflows/build.yml/badge.svg)](https://github.com/radxa-build/rock-5b/actions/workflows/build.yml) [![Build image for Test channel](https://github.com/radxa-build/rock-5b/actions/workflows/test.yml/badge.svg)](https://github.com/radxa-build/rock-5b/actions/workflows/test.yml)
 
 ## What is this?
 
-This repo is the central location for Radxa-built system images for Rock 5B.
+This repo is the central location for Radxa-built system images for ROCK 5B.
 
 ## What images are provided?
 
