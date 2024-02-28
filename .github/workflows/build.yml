@@ -33,7 +33,7 @@ jobs:
     - name: "Generate rbuild changelog"
       uses: "radxa-repo/rbuild-changelog@main"
       with:
-        product: "rock-5b"
+        product: "rock-3c"
     - id: "release"
       name: "Create empty release"
       uses: "softprops/action-gh-release@v1"
