@@ -18,7 +18,7 @@ jobs:
     strategy:
       matrix:
         boards:
-        - "rock-5b"
+        - "rock-3c"
         flavors:
         - "kde"
         suites:
